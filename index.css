@@ -186,6 +186,9 @@
   align-items: flex-start;
   justify-content: center;
 }
+.home-hero1 {
+  position: relative;
+}
 .home-container01 {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
