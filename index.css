@@ -67,7 +67,12 @@
   justify-content: center;
 }
 .home-nav22 {
+  font-size: 16px;
+  font-family: "Bricolage Grotesque";
+  font-weight: 400;
+  line-height: 150%;
   margin-left: var(--dl-space-space-unit);
+  text-decoration: underline;
 }
 .home-nav32 {
   margin-left: var(--dl-space-space-unit);
