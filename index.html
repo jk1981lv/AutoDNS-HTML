@@ -413,6 +413,29 @@
         }
       }
     </style>
+
+    <script type="text/javascript">
+      // Function to dynamically set the form's action
+      function setFormAction(event) {
+        // Prevent the form from submitting immediately
+        event.preventDefault();
+
+        // Get the form and vin input elements
+        var form = document.getElementById('vinForm');
+        var vinInput = document.getElementById('vin');
+
+        // Base URL
+        var baseUrl = 'https://www.carvertical.com/lv/parbaude?l=lv';
+        // Query parameters, with the 'vin' parameter to be filled with the input value
+        var queryParams = '?a=youruniqueparameter&b=4ea1c991&vin=' + encodeURIComponent(vinInput.value);
+
+        // Set the form's action to the full URL with query parameters
+        form.action = baseUrl + queryParams;
+
+        // Now submit the form programmatically
+        form.submit();
+      }
+    </script>
   </head>
   <body>
     <link rel="stylesheet" href="./style.css" />
@@ -536,15 +559,14 @@
                 <button class="buttonFlat">Learn More&nbsp;→</button>
               </div>
               <form
-                action="https://www.carvertical.com/lv/parbaude?l=lv"
                 enctype="application/x-www-form-urlencoded"
-                method="GET"
+                id="vinForm"
                 class="home-form"
               >
                 <input
                   type="text"
-                  placeholder="VIN numurs"
                   id="vin"
+                  placeholder="VIN numurs"
                   class="home-textinput input"
                 />
                 <button type="submit" class="home-button button">Meklēt</button>
