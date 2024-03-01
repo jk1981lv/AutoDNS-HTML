@@ -78,7 +78,12 @@
   margin-left: var(--dl-space-space-unit);
 }
 .home-nav42 {
+  font-size: 16px;
+  font-family: "Bricolage Grotesque";
+  font-weight: 400;
+  line-height: 150%;
   margin-left: var(--dl-space-space-unit);
+  text-decoration: underline;
 }
 .home-nav52 {
   margin-left: var(--dl-space-space-unit);
@@ -638,7 +643,12 @@
   margin-left: var(--dl-space-space-unit);
 }
 .home-nav422 {
+  font-size: 16px;
+  font-family: "Bricolage Grotesque";
+  font-weight: 400;
+  line-height: 150%;
   margin-left: var(--dl-space-space-unit);
+  text-decoration: underline;
 }
 .home-nav522 {
   margin-left: var(--dl-space-space-unit);
@@ -675,19 +685,22 @@
   flex-direction: row;
   justify-content: space-between;
 }
+.home-link {
+  display: contents;
+}
 .home-icon10 {
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.home-link1 {
+  display: contents;
 }
 .home-icon12 {
   width: 24px;
   height: 24px;
-  margin-right: var(--dl-space-space-twounits);
-}
-.home-icon14 {
-  width: 24px;
-  height: 24px;
+  text-decoration: none;
 }
 @media(max-width: 991px) {
   .home-hero1 {
