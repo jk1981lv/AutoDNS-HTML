@@ -280,6 +280,7 @@
   font-weight: 400;
   line-height: 150%;
   margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .blog-post1-atskaitespiemers1 {
   margin-left: var(--dl-space-space-unit);
