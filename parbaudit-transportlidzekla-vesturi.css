@@ -18,6 +18,9 @@
 .blog-post1-navbar-interactive {
   flex: 1;
 }
+.blog-post1-logo {
+  text-decoration: none;
+}
 .blog-post1-desktop-menu {
   flex: 1;
   display: flex;

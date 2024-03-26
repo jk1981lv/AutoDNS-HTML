@@ -153,6 +153,9 @@
 .home-navbar-interactive {
   flex: 1;
 }
+.home-logo {
+  text-decoration: none;
+}
 .home-desktop-menu {
   flex: 1;
   display: flex;
